@@ -77,7 +77,7 @@ def descargar_imagen(img_url: str, base_url: str, nombre_archivo: str, user_agen
     url_completa = urljoin(base_url, img_url)
     ruta = os.path.join(CARPETA_IMAGENES, nombre_archivo)
     try:
-        r = requests.get(url_completa, timeout=15, stream=True, headers={"User-Agent": "Mozilla/5.0"})
+        r = requests.get(url_completa, timeout=15, stream=True, headers={"User-Agent": user_agent})
         r.raise_for_status()
         with open(ruta, "wb") as f:
             for chunk in r.iter_content(8192):
@@ -167,7 +167,7 @@ def crear_driver(browser: str = "chrome"):
 
 def parse_args():
     p = argparse.ArgumentParser()
-    p.add_argument("--browser", choices=["chrome", "firefox"], default="firefox", help="Navegador a usar")
+    p.add_argument("--browser", choices=["chrome", "firefox"], default="chrome", help="Navegador a usar")
     return p.parse_args()
 
 # --- MAIN()---
@@ -184,11 +184,11 @@ def main():
     pulsar_muestrame_mas(driver)
 
     urls = obtener_urls_detalles(driver)
-    print(f"🔗 Se encontraron {len(urls)} animales.")
+    print(f"Se encontraron {len(urls)} animales.")
 
     resultados = []
 
-    for i, url in enumerate(urls [:3], 1):
+    for i, url in enumerate(urls, 1):
         driver.get(url)
         time.sleep(0.8)
 
