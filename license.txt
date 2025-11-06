@@ -1,1 +1,38 @@
-Este repositorio se distribuye con fines académicos. Puedes adaptarlo libremente a cualquier proyecto.
+LICENCIA
+
+Tipo de licencia: CC BY-NC-SA 4.0 – Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+------------------------------------------------------------
+
+DESCRIPCIÓN Y JUSTIFICACIÓN
+
+El dataset generado en este proyecto se distribuye bajo la licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0).
+
+Esta licencia permite:
+
+- COMPARTIR: copiar y redistribuir el material en cualquier medio o formato.
+- ADAPTAR: remezclar, transformar y crear a partir del material.
+
+Siempre que se cumplan las siguientes condiciones:
+
+1. ATRIBUCIÓN (BY): Debe otorgarse el crédito adecuado a los autores originales del dataset y citar la fuente del sitio web del Zoo de Madrid.
+2. NO COMERCIAL (NC): No se puede utilizar el material con fines comerciales.
+3. COMPARTIR IGUAL (SA): Si se remezcla o transforma el dataset, debe distribuirse bajo la misma licencia.
+
+------------------------------------------------------------
+
+MOTIVO DE LA ELECCIÓN
+
+Se ha seleccionado esta licencia porque:
+- El objetivo del trabajo es académico y educativo, no comercial.
+- Se desea permitir la reutilización y análisis del dataset por parte de otros estudiantes o investigadores.
+- Se busca proteger los derechos de los autores y del sitio web original, evitando su explotación con fines lucrativos.
+
+El contenido del dataset procede de información pública y accesible en el portal del Zoo de Madrid (https://www.zoomadrid.com/), 
+pero el proceso de recopilación, limpieza y estructuración de los datos ha sido desarrollado por los autores de este proyecto.
+
+------------------------------------------------------------
+
+© 2025 Diego Carbonell & Guillermo Morató – Distribuido bajo licencia CC BY-NC-SA 4.0.
+Este dataset se proporciona exclusivamente con fines educativos y de investigación.
