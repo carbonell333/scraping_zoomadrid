@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 ## Ejecución del proyecto
 
-1. Clona o descarga este repositorio.
+1. Replica o descarga este repositorio.
 2. Instala las dependencias necesarias.
 3. Ejecuta el script principal:
 
