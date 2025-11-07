@@ -117,17 +117,16 @@ def extraer_datos_ficha(driver):
     tamano      = obtener_texto(driver, "//span[normalize-space()='Tamaño:']/following-sibling::span")
 
     estado = ""
-    for css in [
-        "div.tag1[style*='background-color'] .tagElement",
-        "div.tag1[class*='color#'] .tagElement",
-        "div.tag1.active .tagElement, div.tag1.selected .tagElement",
-    ]:
-        elems = driver.find_elements(By.CSS_SELECTOR, css)
-        if elems:
-            txt = elems[0].text.strip()
-            if txt:
-                estado = txt
-                break
+    try:
+        el = driver.find_element(
+            By.XPATH,
+            "(//div[contains(@class,'containerList')]"
+            "//div[contains(@class,'tag1')][contains(@style,'#')]"
+            "//div[contains(@class,'tagElement')])[1]"
+        )
+        estado = el.text.strip()
+    except Exception:
+        pass
 
     image_url = obtener_url_imagen(driver)
 
