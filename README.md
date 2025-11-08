@@ -83,7 +83,7 @@ Toda la información se obtiene automáticamente del sitio web oficial del Zoo d
 - [https://www.zoomadrid.com/descubre-el-zoo/animales-y-continentes/animales](https://www.zoomadrid.com/descubre-el-zoo/animales-y-continentes/animales)
 
 El dataset completo se encuentra publicado en **Zenodo** en formato CSV:  
-- [[https://doi.org/...](https://doi.org/...)](https://doi.org/10.5281/zenodo.17551836)
+- (https://doi.org/10.5281/zenodo.17551836)
 
 ---
 
