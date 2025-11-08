@@ -17,16 +17,21 @@ El resultado final es un **archivo CSV** que contiene los datos estructurados de
 ## Estructura del proyecto
 
 ```
-Actividad_1/
+scraping_zoomadrid/
 │
-├── animales_zoomadrid.csv            # Dataset final con los datos extraídos.
+├── dataset/                          # Capeta con el Dataset final con los datos extraídos.
+│   └── animales_zoomadrid.csv           
 │
 ├── imagenes/                         # Carpeta de salida con las imágenes descargadas.
 │   └── 0XX-nombre-animal.jpg
 │
-├── main.py                           # Script principal del scraping.
-├── license.txt                       # Licencia del proyecto.
-└── requirements.txt                  # Dependencias necesarias para ejecutar el código.
+├── source/                               # Carpera principal del código.         
+│   └── main.py                           # Script principal del scraping.
+│   └── requirements.txt                  # Dependencias necesarias para ejecutar el código.
+│  
+├── READNE.md
+│
+└── license.txt                       # Licencia del proyecto.
 ```
 
 ---
